@@ -8,14 +8,6 @@
   border: 1px solid red;
 }
 
-#content {
-
-}
-
-.container {
-
-}
-
 #about, #my-work, #contact-me {
 
 }
@@ -174,4 +166,13 @@ hr.bar {
 }
 #my-work-gallery {
     text-align: center;
+}
+@media screen and (max-width: 1023px) {
+  .container {
+     width: auto;
+   }
+  /*
+    手機版的 css 都寫在這邊
+  */
+
 }
